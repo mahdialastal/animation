@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: azure;
+
+}
+/* ////////////start car 01 section///////////// */
+.car01 ,.car02 ,.car03 ,.car04{
+    width: 100%;
+    height: 150px;
+    background-color: bisque;
+}
+.light-trafic{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(117, 105, 91);
+    
+}
+.light-trafic1 {
+    margin:0 600px;
+    width: 300px;
+}
+.light-trafic1 span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+.green-01,.green-02 ,.green-03 ,.green-04{
+    background-color: rgb(5, 5, 5);
+}
+.red-01,.red-02,.red-03,.red-04{
+    background-color: rgb(0, 0, 0);
+
+}
+.yellow-01,.yellow-02,.yellow-03,.yellow-04{
+    background-color: rgb(2, 2, 2);
+}
+
+/* .............trafic.............animation */
+
+/* ///////////////////trafic01///////// */
+.red-01{
+    animation-name: trafic-01-red;
+    animation-duration: 1s;
+}
+@keyframes  trafic-01-red{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: red; scale: 1.5;}
+    100%{background-color: rgb(255, 0, 0); scale: 1;}
+}
+
+.yellow-01{
+    animation-name: trafic-01-yellow;
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+@keyframes  trafic-01-yellow{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: yellow; scale: 1.5;}
+    100%{background-color: yellow; scale: 1;}
+}
+
+.green-01{
+    animation-name: trafic-01-green;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes  trafic-01-green{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: green; scale: 1.5;}
+    100%{background-color: green; scale: 1;}
+}
+/* ////////////////////////trafic01//////// */
+
+/* ///////////////////////trafic02//////////////// */
+.red-02{
+    animation-name: trafic-01-red;
+    animation-delay: 8s;
+    animation-duration: 1s;
+}
+@keyframes  trafic-01-red{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: red; scale: 1.5;}
+    100%{background-color: rgb(255, 0, 0); scale: 1;}
+}
+
+.yellow-02{
+    animation-name: trafic-01-yellow;
+    animation-delay: 9s;
+    animation-duration: 1s;
+}
+@keyframes  trafic-01-yellow{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: yellow; scale: 1.5;}
+    100%{background-color: yellow; scale: 1;}
+}
+
+.green-02{
+    animation-name: trafic-01-green;
+    animation-delay: 10s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes  trafic-01-green{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: green; scale: 1.5;}
+    100%{background-color: green; scale: 1;}
+}
+/* //////////////////////////// trafic02/////////// */
+/* ///////////////////////trafic03//////////////// */
+.red-03{
+    animation-name: trafic-01-red;
+    animation-delay: 17s;
+    animation-duration: 1s;
+}
+@keyframes  trafic-01-red{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: red; scale: 1.5;}
+    100%{background-color: rgb(255, 0, 0); scale: 1;}
+}
+
+.yellow-03{
+    animation-name: trafic-01-yellow;
+    animation-delay: 18s;
+    animation-duration: 1s;
+}
+@keyframes  trafic-01-yellow{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: yellow; scale: 1.5;}
+    100%{background-color: yellow; scale: 1;}
+}
+
+.green-03{
+    animation-name: trafic-01-green;
+    animation-delay: 19s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes  trafic-01-green{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: green; scale: 1.5;}
+    100%{background-color: green; scale: 1;}
+}
+/* //////////////////////////// trafic03/////////// */
+/* ///////////////////////trafic04//////////////// */
+.red-04{
+    animation-name: trafic-01-red;
+    animation-delay: 27s;
+    animation-duration: 1s;
+}
+@keyframes  trafic-01-red{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: red; scale: 1.5;}
+    100%{background-color: rgb(255, 0, 0); scale: 1;}
+}
+
+.yellow-04{
+    animation-name: trafic-01-yellow;
+    animation-delay: 28s;
+    animation-duration: 1s;
+}
+@keyframes  trafic-01-yellow{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: yellow; scale: 1.5;}
+    100%{background-color: yellow; scale: 1;}
+}
+
+.green-04{
+    animation-name: trafic-01-green;
+    animation-delay: 29s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes  trafic-01-green{
+    0%{background-color: black; scale: 1;}
+    50%{background-color: green; scale: 1.5;}
+    100%{background-color: green; scale: 1;}
+}
+/* //////////////////////////// trafic04/////////// */
+/* .............trafic.............animation */
+
+/* //////////////road////////////////// */
+.road01,.road02{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.road01 .road-1,.road-3{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.road02 .road-2,.road-4{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.road01 .car1,.car3{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 1px;
+}
+.road02 .car2,.car4{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 1px;
+}
+/* ////////end road////////// */
+
+/* ----------car animation-------------- */
+/* /////////////////car 01///////////////// */
+.road01 .car1{
+    animation-name: car01;
+    animation-delay: 3s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes car01{
+    0%{left: 5px;}
+    100%{left: 93%;} 
+    
+
+}
+/* /////////////////car 01///////////////// */
+
+/* /////////////////car 02///////////////// */
+.road02 .car2{
+    animation-name: car02;
+    animation-delay: 11s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes car02{
+    0%{right: 1px;}
+    100%{right: 93%;}
+
+
+}
+/* /////////////////car 02///////////////// */
+
+/* /////////////////car 03///////////////// */
+.road01 .car3{
+    animation-name: car01;
+    animation-delay: 21S;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes car01{
+    0%{left: 5px;}
+    100%{left: 93%;} 
+    
+
+}
+/* /////////////////car 03///////////////// */
+
+/* /////////////////car 04///////////////// */
+.road02 .car4{
+    animation-name: car02;
+    animation-delay: 30s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes car02{
+    0%{right: 1px;}
+    100%{right: 93%;}
+
+
+}
+/* /////////////////car 04///////////////// */
+
+
+/* ---------- end car animation-------------- */
+/* ////////////////fire section//////////////// */
+    .fire .fire01,.fire02,.fire03{
+        width: 50px;
+        height: 50px;
+       
+    }
+
+    .fire01{
+        opacity: 0.5;
+        z-index: 3;
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+    }
+
+    .fire02{
+        opacity: 0.5;
+        z-index: 3;
+        position: absolute;
+        bottom: -30px;
+        right: 0;
+    }
+    .fire03{
+        opacity: 0.5;
+        z-index: 3;
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+    }
+
+
+/* ////////////////fire section//////////////// */
+
+
+/* ////////////////fire animation//////////////// */
+
+/* /////////////////////// fire01/////////// */
+.fire01{
+    animation-name: fire01;
+    animation-duration: 2s;
+    animation-delay: 36s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fire01 {
+    0% {
+        opacity: 0.5;
+        bottom: 0;
+        left: 0;
+        scale: 1;
+    }
+    100%{
+        opacity: 1;
+        bottom: 60%;
+        left: 70%;
+        scale: 5;
+    }
+}
+/* /////////////////////// fire01/////////// */
+/* /////////////////////// fire02/////////// */
+.fire02{
+    animation-name: fire02;
+    animation-duration: 2s;
+    animation-delay: 37s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fire02 {
+    0% {
+        opacity: 0.5;
+        bottom: 0;
+        right: 0;
+        scale: 1;
+    }
+    100%{
+        opacity: 1;
+        bottom: 60%;
+        right: 70%;
+        scale: 5;
+    }
+}
+/* /////////////////////// fire02/////////// */
+/* /////////////////////// fire03/////////// */
+.fire03{
+    animation-name: fire03;
+    animation-duration: 2s;
+    animation-delay: 38s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fire03 {
+    0% {
+        opacity: 0.5;
+        bottom: 0;
+        left: 50%;
+        scale: 1;
+    }
+    100%{
+        opacity: 1;
+        bottom: 60%;
+        left: 50%;
+        scale: 5;
+    }
+}
+/* /////////////////////// fire03/////////// */
+
+/* ////////////////fire animation//////////////// */
